@@ -1,0 +1,36 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.journeyclinical.com/privacy-practices-hipaa
+notes: >-
+  Journey Clinical is a telehealth provider of ketamine-assisted psychotherapy and does
+  not publish a public API, OpenAPI, or developer surface. Standards conformance here is
+  asserted from the compliance posture the company publishes on its own site, not derived
+  from any machine-readable API contract. Absence of a standard below is expected for a
+  non-API healthcare provider and is recorded as honest negative data.
+standards:
+  - id: hipaa
+    conforms: true
+    evidence: >-
+      Publishes a "Notice of Privacy Practices (HIPAA)" identifying Journey Clinical
+      Psychiatry, P.C., Journey Clinical Psychiatry CA, PC and Journey Clinical Psychiatry,
+      TX, PLLC as members of an affiliated covered entity (ACE) required to abide by HIPAA;
+      commits to written business-associate contracts protecting PHI.
+    url: https://www.journeyclinical.com/privacy-practices-hipaa
+  - id: soc2
+    conforms: false
+    evidence: No SOC 2 attestation published on the public site.
+  - id: iso-27001
+    conforms: false
+    evidence: No ISO 27001 certification published on the public site.
+  - id: oauth2
+    conforms: false
+    evidence: No public OpenAPI/OAuth surface published.
+  - id: oidc
+    conforms: false
+    evidence: No /.well-known/openid-configuration (HTTP 404 on www, 500 on my host).
+  - id: fhir-r4
+    conforms: false
+    evidence: No public FHIR API published despite operating in the health domain.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: No public API surface to assert error-format conformance.
