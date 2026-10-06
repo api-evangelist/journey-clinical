@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Telehealth
@@ -60,6 +60,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.journeyclinical.com/resources/rss.xml
+  type: BlogRSS
 - type: Website
   url: https://www.journeyclinical.com
 - type: Pricing
